@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>tinyHeart</title>
+	<style type="text/css">
+		body {
+			padding-top: 10px;
+		}
+		/** {
+			margin: 0;
+			padding: 0;
+		}*/
+		.all-bg {
+			width: 1200px;
+			height: 640px;
+			margin: 0 auto;
+		}
+		#allcanvas {
+			position: relative;
+			width: 1200px;
+			height: 640px;
+			margin: 0;
+		}
+		#canvas1 {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 1;
+		}
+		#canvas2 {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			z-index: 0;
+		}
+		/*canvas {
+			width: 100vw;
+			height: 100vh;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="all-bg">
+		<div id="allcanvas">
+			<canvas id="canvas1" width="1200" height="640" ></canvas>
+			<canvas id="canvas2" width="1200" height="640" ></canvas>
+		</div>
+	</div>
+	
+	<script src="js/jquery.js"></script>
+	<script>
+		// $(function() {
+		// 	var height = $(window).height();
+			
+		// 	var width = $(window).width();
+		// 	$("canvas").css("height",height).css("width",width);
+		// });
+
+	</script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/commonFunctions.js"></script>
+	<script type="text/javascript" src="js/background.js"></script>
+	<script type="text/javascript" src="js/ane.js"></script>
+	<script type="text/javascript" src="js/fruit.js"></script>
+	<script type="text/javascript" src="js/mom.js"></script>
+	<script type="text/javascript" src="js/collision.js"></script>
+	<script type="text/javascript" src="js/baby.js"></script>
+	<script type="text/javascript" src="js/dust.js"></script>
+	<script type="text/javascript" src="js/data.js"></script>
+	<script type="text/javascript" src="js/halo.js"></script>
+	<script type="text/javascript" src="js/wave.js"></script>
+</body>
+</html>
